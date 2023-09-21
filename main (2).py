@@ -1,7 +1,5 @@
-def recur_factorial(n):
-  if (n == 1):
-    return 1
-  else:
-    return n * recur_factorial(n-1)
-num = int(input("enter a number"))
-print("factorial is", recur_factorial(num))
+year = int(input("Enter a year:"))
+if (year % 4 == 0):
+  print("{} is a leap year ".format(year))
+else:
+  print("{} is not a leap year".format(year))
